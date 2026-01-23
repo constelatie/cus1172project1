@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Profile Home Page</title>
+    </head>
+    <body>
+
+        <menu align="center">
+            <a href=#welcome>Welcome</a>
+            <a href=#education>Education</a>
+            <a href=#work>Work Experience</a>
+            <a href=#programming>Programming Experience</a>
+            <a href=#favorite>Favorite Media</a>
+            <a href=#website>Favorite Website</a>
+            <a href=#projects>Projects</a>
+        
+        </menu>
+        <div align="center" id="welcome">
+        <h1 align="center">Welcome to Christiana's Profile Page!</h1>
+        <img align="center" src="https://static.vecteezy.com/system/resources/thumbnails/008/951/892/small/cute-puppy-pomeranian-mixed-breed-pekingese-dog-run-on-the-grass-with-happiness-photo.jpg" width="50%" height="50%"/>
+        <h3 align="center">My name is Christiana!</h3>
+        <p align="center">I'm an information technology major with a business administration minor! I'm a senior in my last semester, and I live here in Queens.</p>
+        </div>
+        <span></span>
+
+        <div id="education">
+        <h1 align="center">Education</h1>
+        <p align="center">This coming May, I will be graduating with my bachelor's of science in Information Technology. Following that, I plan to go for my STEM MBA and also
+            pursue another bachelor's in User Experience. 
+        </p>
+        </div>
+        <span></span>
+        
+        <div id="work">
+        <h1 align="center">Work</h1>
+        <ul align="center">
+            <li>Administrative Assistant at Coldwell Banker American Homes</li>
+            <li>AI Intern at SJ Innovation LLC</li>
+            <li>Career Services Representative at St. John's Career Services</li>
+            <li>Level Design and Narrative of the GET-Produced Game "Oblivion"</li>
+        </ul>
+        </div>
+        <span></span>
+
+        <div id="programming">
+        <h1 align="center">Programming Experience</h1>
+        <table align="center">
+            <tr>
+                <th>Programming Language</th>
+                <th>Experience Level</th>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+        </div>
+        
+
+        <div align="center" id="favorite">
+            <h1 align="center">Favorite Medias</h1>
+            <h4 align="center">Favorite Music Video: "Girlfriend" by Avril Lavigne</h4>
+            <iframe src="https://www.youtube.com/watch?v=Bg59q4puhmg" height="200" width="300" title="Girlfriend">
+            <h4 align="center">Favorite Movie: "Uptown Girls" (2003)</h4>
+            <iframe src="https://www.youtube.com/watch?v=ftSY4DW5tEk" height="200" width="300" title="Uptown Girls Trailer"></iframe>
+            <h4 align="center">Favorite Television Show: "Desperate Housewives" (2004-2012)</h4>
+            <iframe src="https://www.youtube.com/watch?v=LyihT0FofT0" height="200" width="300" title="Desperate Housewives"></iframe>
+        </div>
+
+        <div align="center" id="website">
+            <h1>Favorite Websites</h1>
+            <a href="https://dribbble.com" target="_blank">Dribble</a>
+            <p>A website that allows <span style="color:red">UI designers</span> and creatives to share their work and get peer feedback. Also helps a lot with design inspiration when you're stumped!</p>
+            <a href="https://web.archive.org" target="_blank">Wayback Machine</a>
+            <p>A website that archives old websites! I like to use it for <span style="color:pink">inspiration</span> from 2000s game hosting websites. I miss the era of when websites had more color and organic shapes to them.</p>
+            <a href="https://www.gameuidatabase.com" target="_blank">Game UI Database</a>
+            <p>A website that logs the different UI and its respective elements of a large variety of <span style="color: purple">games!</span></p>
+        </div>
+
+        <div align="center" id="projects">
+            <h1>Project List</h1>
+            <ol>
+                <li>Profile Page</li>
+                <p>A project where we practiced how to implement and deploy a profile page through HTML, CSS and Bootstrap. It was the first project of the semester! For more information, click below.</p>
+                <a href="https://stjohns.instructure.com/courses/104069/assignments/775373?module_item_id=2431156" target="_blank">Project 1 Details</a>
+            </ol>
+        </div>
+
+        <div align="center" id="form">
+        <form>
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" name="name"> <br>
+            <label for="read">Did you read all of this page?</label> <br>
+            <select id="read" name="read">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </form>
+        </div>
+
+    </body>
+</html>
