@@ -28,6 +28,7 @@ div {
     border-color: #e7ae75;
     border: 5px;
     padding: 10px 15px;
+    text-align: center;
 }
 
 #welcome {
