@@ -1,7 +1,7 @@
 body {
     background-color: #83513e;
     border: 10px solid transparent;
-    border-image: url(./laceborder.png) 20 round;
+    border-image: img("./laceborder.png") round 20;
 }
 
 h1 {
@@ -29,6 +29,7 @@ div {
     border: 5px;
     padding: 10px 15px;
     text-align: center;
+    content-align: center;
 }
 
 #welcome {
