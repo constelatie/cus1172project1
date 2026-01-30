@@ -1,0 +1,105 @@
+body {
+    background-color: #83513e;
+    border: 10px solid transparent;
+    border-image: url(https://images.rawpixel.com/dark_image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA2L3NyLWltYWdlLTEyMDYyNS10Yy1zLTMwMV8yLnBuZw.png) 20 round;
+}
+
+h1 {
+    color: #fad6d3;
+}
+
+h2 {
+    color:#f6dfb3
+}
+
+p {
+    color: #f6dfb3;
+    font-size: 25px;
+}
+
+.spanchange {
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+}
+
+div {
+    border-radius: 25px;
+    border-color: #e7ae75;
+    border: 5px;
+    padding: 10px 15px;
+}
+
+#welcome {
+    border: 20px solid transparent;
+    border-image: url(https://t3.ftcdn.net/jpg/15/91/95/28/360_F_1591952881_jOBvkBk7WknAnMjmdux8HZVLB4Epzu2O.jpg) 20 round;
+    padding: 10px 15px;
+}
+
+ul {
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+li {
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 4c-4-1-6 3-6 3s-2-4-6-3-4 6-2 8l8 8 8-8c2-2 2-7-2-8z" fill="%23F6DF83"></path></svg>')
+}
+
+li::marker {
+    font-size: 10px;
+    line-height: 0.4;
+}
+
+#me {
+    width: 50%;
+    height: auto;
+    border: 15px solid transparent;
+    border-image: url(https://www.freeiconspng.com/uploads/lace-border-png-16.png) 15 round;
+}
+
+a:link {
+    color:#e7ae75;
+}
+
+a:hover {
+    color:#fad6d3;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:#f28aa1
+}
+
+table {
+    border-radius: 10px;
+    border: 5px solid #e7ae75
+}
+
+table>table th {
+    background-color: cornsilk;
+    font-size: 20px;
+    padding: 5px;
+}
+
+table>table tr:nth-child(even) {
+    background-color:#f6dfb3;
+    color: black;
+    font-size: 15px;
+}
+
+table>table tr:nth-child(odd) {
+    background-color:#e7ae75;
+    color: black;
+    font-size: 15px;
+}
+
+table>table tr:hover {
+    background-color: #f28aa1;
+    color:#83513e;
+}
+
+form {
+    background-color: #433025;
+    color: #f2cf2a;
+}
