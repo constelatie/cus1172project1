@@ -1,11 +1,7 @@
-.bigdiv {
-    background-color: #83513e;
-    border: 10px solid transparent;
-    border-image: img("./laceborder.png") round 20;
-}
-
 body {
     background-color: #83513e;
+    border: 20px solid transparent;
+    border-image: img("./laceborder.png") round 20;
 }
 
 h1 {
@@ -81,25 +77,25 @@ table {
     content-align: center;
 }
 
-table>table th {
+th {
     background-color: cornsilk;
     font-size: 20px;
     padding: 5px;
 }
 
-table>table tr:nth-child(even) {
+tr:nth-child(even) {
     background-color:#f6dfb3;
     color: black;
     font-size: 15px;
 }
 
-table>table tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color:#e7ae75;
     color: black;
     font-size: 15px;
 }
 
-table>table tr:hover {
+tr:hover {
     background-color: #f28aa1;
     color:#83513e;
 }
