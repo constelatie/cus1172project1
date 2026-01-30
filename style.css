@@ -53,8 +53,8 @@ li::marker {
 }
 
 #me {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 50px;
     border: 15px solid transparent;
     border-image: url(https://www.freeiconspng.com/uploads/lace-border-png-16.png) 15 round;
 }
