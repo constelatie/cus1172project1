@@ -1,4 +1,4 @@
-body {
+.bigdiv {
     background-color: #83513e;
     border: 10px solid transparent;
     border-image: img("./laceborder.png") round 20;
