@@ -1,7 +1,7 @@
 body {
     background-color: #83513e;
     border: 10px solid transparent;
-    border-image: url(https://images.rawpixel.com/dark_image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA2L3NyLWltYWdlLTEyMDYyNS10Yy1zLTMwMV8yLnBuZw.png) 20 round;
+    border-image: url(./laceborder.png) 20 round;
 }
 
 h1 {
