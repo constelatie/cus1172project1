@@ -42,13 +42,13 @@ ul {
     padding: 10px;
 }
 
-ul li {
+li {
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 4c-4-1-6 3-6 3s-2-4-6-3-4 6-2 8l8 8 8-8c2-2 2-7-2-8z" fill="%23F6DF83"></path></svg>');
     color: #f6dfb3;
     font-size: 15px;
 }
 
-ul li::marker {
+li::marker {
     font-size: 40px;
     line-height: 0.4;
 }
