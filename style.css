@@ -4,6 +4,10 @@
     border-image: img("./laceborder.png") round 20;
 }
 
+body {
+    background-color: #83513e;
+}
+
 h1 {
     color: #fad6d3;
 }
