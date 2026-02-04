@@ -3,7 +3,7 @@ body {
     background-image: url("./backgroundforcss.jpg");
     border: 10px solid transparent;
     border-image: url("./laceborder.png") round 20;
-}
+
 p {
         font-size: 30px;
     }
@@ -36,4 +36,9 @@ li {
 li::marker {
     font-size: 20px;
     line-height: 0.2;
+}
+
+a {
+    font-size: 30px;
+}
 }
