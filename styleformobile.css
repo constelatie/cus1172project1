@@ -11,8 +11,6 @@ p {
 div {
     border-radius: 25px;
     border-color: #e7ae75;
-    border: 3px;
-    padding: 5px 10px;
     text-align: center;
     content-align: center;
 }
