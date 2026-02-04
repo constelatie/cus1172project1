@@ -3,6 +3,7 @@ body {
     background-image: url("./backgroundforcss.jpg");
     border: 10px solid transparent;
     border-image: url("./laceborder.png") round 20;
+    content-align: center;
 
 p {
         font-size: 30px;
