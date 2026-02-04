@@ -1,4 +1,4 @@
-@media mobile screen and (max-width: 600px) {
+@media mobile screen and (max-width: 500px) {
 body {
     background-image: url("./backgroundforcss.jpg");
     border: 10px solid transparent;
@@ -40,5 +40,10 @@ li::marker {
 
 a {
     font-size: 30px;
+}
+
+menu {
+    content-align: center;
+    text-align: center;
 }
 }
