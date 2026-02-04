@@ -1,1 +1,39 @@
+@media mobile screen and (max-width: 600px) {
+body {
+    background-image: url("./backgroundforcss.jpg");
+    border: 10px solid transparent;
+    border-image: url("./laceborder.png") round 20;
+}
+p {
+        font-size: 30px;
+    }
+div {
+    border-radius: 25px;
+    border-color: #e7ae75;
+    border: 3px;
+    padding: 5px 10px;
+    text-align: center;
+    content-align: center;
+}
+ul {
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
 
+.spanchange {
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+li {
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 4c-4-1-6 3-6 3s-2-4-6-3-4 6-2 8l8 8 8-8c2-2 2-7-2-8z" fill="%23F6DF83"></path></svg>');
+    color: #f6dfb3;
+    font-size: 15px;
+}
+
+li::marker {
+    font-size: 20px;
+    line-height: 0.2;
+}
