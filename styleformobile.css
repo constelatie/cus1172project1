@@ -1,4 +1,4 @@
-@media mobile screen {
+@media only screen and (max-width: 600px) {
 body {
     background-image: url("./backgroundforcss.jpg");
     border: 10px solid transparent;
