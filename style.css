@@ -1,11 +1,12 @@
 body {
-    background-color: #967969;
+    background-image: url("./backgroundforcss.jpg");
     border: 20px solid transparent;
     border-image: url("./laceborder.png") round 20;
 }
 
 @media mobile screen and (max-width: 600px) {
 body {
+    background-image: url("./backgroundforcss.jpg");
     border: 10px solid transparent;
     border-image: url("./laceborder.png") round 20;
 }
