@@ -1,0 +1,16 @@
+.container {
+  color: #fad6d3 !important;
+}
+
+.list-group-item list-group-item-dark {
+   color: #f6dfb3;
+    font-size: 25px;
+  background-color: #815858;
+}
+.list-group-item list-group-item-light {
+
+   color: #f6dfb3;
+    font-size: 25px;
+  background-color: #FFD59A;
+  
+}
