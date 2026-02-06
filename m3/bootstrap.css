@@ -3,14 +3,14 @@
 }
 
 .list-group-item list-group-item-dark {
-   color: #f6dfb3;
-    font-size: 25px;
-  background-color: #815858;
+   color: #f6dfb3 !important;
+    font-size: 25px !important;
+  background-color: #815858 !important;
 }
 .list-group-item list-group-item-light {
 
-   color: #f6dfb3;
-    font-size: 25px;
-  background-color: #FFD59A;
+   color: #f6dfb3 !important;
+    font-size: 25px !important;
+  background-color: #FFD59A !important;
   
 }
